@@ -1,0 +1,55 @@
+body {
+            background-color: #f0f0f0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        /* أسلوب زر العرض */
+        #showModal {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* أسلوب النافذة المنبثقة */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+        }
+
+        /* أسلوب محتوى النافذة المنبثقة */
+        .modal-content {
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* أسلوب زر الإغلاق */
+        .close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        /* أسلوب نص الإعلان */
+        h2, p {
+            margin: 0;
+        }
